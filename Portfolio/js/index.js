@@ -1,0 +1,13 @@
+$(document).ready(function(){
+     $("#portfolioCarousel").carousel();
+});
+$(document).ready(function(){
+    $(".prev-slide").click(function(){
+        $("#myCarousel").carousel('prev');
+    });
+});
+$(document).ready(function(){
+    $(".next-slide").click(function(){
+        $("#myCarousel").carousel('next');
+    });
+});
